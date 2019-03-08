@@ -1,0 +1,32 @@
+body {
+  background-color: red;
+}
+
+#navbar {
+  background-color: white;
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 300px;
+  border-right: solid;
+  border-color: rgba(0,22,22,0.4);
+}
+
+#main-doc {
+  background-color: green;
+  position: absolute;
+  margin-left: 310px;
+}
+
+@media only screen and (max-width: 815px) {
+  #navbar {
+    position: absolute;
+    width: 100%;
+  }
+  #main-doc {
+    position: relative;
+    
+  }
+}
